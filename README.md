@@ -78,7 +78,7 @@ python dup_finder.py ./my_folder --min-size 1024
 python dup_finder.py ./my_folder --json
 ```
 
-## How it works (the "fast approach")
+## How it works
 
 Comparing every file against every other file byte-by-byte would be slow on
 large directories. Instead:
